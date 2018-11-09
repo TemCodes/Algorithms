@@ -1,4 +1,4 @@
-def mergeSort(arr):
+def Merge_Sort(arr):
     if len(arr) >1:
         mid = len(arr)//2 #Finding the mid of the array
         L = arr[:mid] # Dividing the array elements
@@ -31,4 +31,4 @@ def mergeSort(arr):
             k+=1
     return(arr)
 
-print(mergeSort([1,7,3,9,9,9,9,9,9,9,9,99,2,7,4,7,3]))
+print(Merge_Sort([1,7,3,9,9,9,9,9,9,9,9,99,2,7,4,7,3]))
