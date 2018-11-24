@@ -31,4 +31,4 @@ def Merge_Sort(arr):
             k+=1
     return(arr)
 
-print(Merge_Sort([1,7,3,9,9,9,9,9,9,9,9,99,2,7,4,7,3]))
+print(Merge_Sort([1,7,3,9,9,9,9,9,9,9,9,99,2,7,4,7,3,4,6,2,7,65,98]))
